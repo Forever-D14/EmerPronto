@@ -110,7 +110,7 @@ class _PantallaAtragantamientoBebeState extends State<PantallaAtragantamientoBeb
                     width: 250,
                     child: Card(
                       child: ListTile(
-                        title: Text("Text Prueba 1"),
+                        title: Text("1.- Si el bebé aun respira vigílalo y no hagas nada.",style: TextStyle(color: Colors.red),textAlign: TextAlign.justify),
                       ),
                     ),
                   ),
@@ -118,7 +118,7 @@ class _PantallaAtragantamientoBebeState extends State<PantallaAtragantamientoBeb
                     width: 250,
                     child: Card(
                       child: ListTile(
-                        title: Text("Text Prueba 2"),
+                        title: Text("""2.- El bebe ya no respira y aun está consciente: \nRealiza 5 golpecitos entre los dos omoplatos con la palma de la mano. \nAlterna con 5 compresiones torácicas""",style: TextStyle(color: Colors.red),textAlign: TextAlign.justify),
                       ),
                     ),
                   ),
@@ -126,7 +126,7 @@ class _PantallaAtragantamientoBebeState extends State<PantallaAtragantamientoBeb
                     width: 250,
                     child: Card(
                       child: ListTile(
-                        title: Text("Text Prueba 3"),
+                        title: Text("3.- El bebe ya no respira y ha perdido el conocimiento:\n\nLlama a emergencias. \n\nLuego realiza 30 compresiones torácicas con 2 insuflaciones.",style: TextStyle(color: Colors.red),textAlign: TextAlign.justify),
                       ),
                     ),
                   ),

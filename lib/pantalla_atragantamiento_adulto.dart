@@ -110,7 +110,8 @@ class _PantallaAtragantamientoAdultoState extends State<PantallaAtragantamientoA
                     width: 250,
                     child: Card(
                       child: ListTile(
-                        title: Text("Text Prueba 1"),
+                        contentPadding: EdgeInsets.all(15),
+                        title: Text("1.- Identificar si es una obstrucción parcial o completa",style: TextStyle(color: Colors.red),textAlign: TextAlign.justify),
                       ),
                     ),
                   ),
@@ -118,7 +119,8 @@ class _PantallaAtragantamientoAdultoState extends State<PantallaAtragantamientoA
                     width: 250,
                     child: Card(
                       child: ListTile(
-                        title: Text("Text Prueba 2"),
+                        contentPadding: EdgeInsets.all(15),
+                        title: Text("2.- En caso de ser una obstrucción parcial, pídele a la persona que siga tosiendo hasta que la obstrucción salga o se vuelva completa",style: TextStyle(color: Colors.red),textAlign: TextAlign.justify),
                       ),
                     ),
                   ),
@@ -126,7 +128,8 @@ class _PantallaAtragantamientoAdultoState extends State<PantallaAtragantamientoA
                     width: 250,
                     child: Card(
                       child: ListTile(
-                        title: Text("Text Prueba 3"),
+                        contentPadding: EdgeInsets.all(15),
+                        title: Text("3.- En caso de ser una obstrucción completa, realizar la maniobra de Heimlich",style: TextStyle(color: Colors.red),textAlign: TextAlign.justify,),
                       ),
                     ),
                   ),

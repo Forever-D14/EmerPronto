@@ -110,7 +110,8 @@ class _PantallaMordeduraSerpienteState extends State<PantallaMordeduraSerpiente>
                     width: 250,
                     child: Card(
                       child: ListTile(
-                        title: Text("Text Prueba 1"),
+                        contentPadding: EdgeInsets.all(15),
+                        title: Text("1.- Inmobiliza la extremidad afectada",style: TextStyle(color: Colors.red),textAlign: TextAlign.justify),
                       ),
                     ),
                   ),
@@ -118,7 +119,8 @@ class _PantallaMordeduraSerpienteState extends State<PantallaMordeduraSerpiente>
                     width: 250,
                     child: Card(
                       child: ListTile(
-                        title: Text("Text Prueba 2"),
+                        contentPadding: EdgeInsets.all(15),
+                        title: Text("2.- Coloca un vendaje que comprima el lugar de la mordedura, pero no demasiado fuerte, de modo que entre un dedo entre la mordedura y el vendaje",style: TextStyle(color: Colors.red),textAlign: TextAlign.justify),
                       ),
                     ),
                   ),
@@ -126,7 +128,8 @@ class _PantallaMordeduraSerpienteState extends State<PantallaMordeduraSerpiente>
                     width: 250,
                     child: Card(
                       child: ListTile(
-                        title: Text("Text Prueba 3"),
+                        contentPadding: EdgeInsets.all(15),
+                        title: Text("3.- Si la mordedura esta en la mano, retira las joyas\n\nLlama a emergencias\n\nNo succiones la herida",style: TextStyle(color: Colors.red),textAlign: TextAlign.justify),
                       ),
                     ),
                   ),

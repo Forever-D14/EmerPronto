@@ -108,7 +108,8 @@ class _PantallaConvulsionesState extends State<PantallaConvulsiones> {
                     width: 250,
                     child: Card(
                       child: ListTile(
-                        title: Text("Text Prueba 1"),
+                        contentPadding: EdgeInsets.all(15),
+                        title: Text("1.- Durante la crisis evita mover a la víctima, a menos que se encuentre en una situación peligrosa.\nRetira los objetos que podrían causar lesiones.\nNo trates de inmovilizar a la victima",style: TextStyle(color: Colors.red),textAlign: TextAlign.justify),
                       ),
                     ),
                   ),
@@ -116,7 +117,8 @@ class _PantallaConvulsionesState extends State<PantallaConvulsiones> {
                     width: 250,
                     child: Card(
                       child: ListTile(
-                        title: Text("Text Prueba 2"),
+                        contentPadding: EdgeInsets.all(15),
+                        title: Text("2.- No introduzcas nada en la boca de la victima \n\nTras la crisis coloca la cabeza hacia atrás y controla las vías de respiración\n\nColoca a la víctima en posición lateral de seguridad",style: TextStyle(color: Colors.red),textAlign: TextAlign.justify),
                       ),
                     ),
                   ),
@@ -124,7 +126,8 @@ class _PantallaConvulsionesState extends State<PantallaConvulsiones> {
                     width: 250,
                     child: Card(
                       child: ListTile(
-                        title: Text("Text Prueba 3"),
+                        contentPadding: EdgeInsets.all(15),
+                        title: Text("3.- Quédate a su lado hasta que recobre consciencia.\n\nLlama a emergencias",style: TextStyle(color: Colors.red),textAlign: TextAlign.justify),
                       ),
                     ),
                   ),

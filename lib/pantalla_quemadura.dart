@@ -110,7 +110,8 @@ class _PantallaQuemaduraState extends State<PantallaQuemadura> {
                     width: 250,
                     child: Card(
                       child: ListTile(
-                        title: Text("Text Prueba 1"),
+                        contentPadding: EdgeInsets.all(15),
+                        title: Text("1.- Elimina el agente responsable de la quemadura\n\nAplica agua fría en la herida, nunca congelada, hasta que desaparezca el dolor",style: TextStyle(color: Colors.red),textAlign: TextAlign.justify),
                       ),
                     ),
                   ),
@@ -118,7 +119,8 @@ class _PantallaQuemaduraState extends State<PantallaQuemadura> {
                     width: 250,
                     child: Card(
                       child: ListTile(
-                        title: Text("Text Prueba 2"),
+                        contentPadding: EdgeInsets.all(15),
+                        title: Text("2.- Retira la ropa en contacto con la quemadura salvo si se pega a la piel\n\nLlama al servicio de emergencia",style: TextStyle(color: Colors.red),textAlign: TextAlign.justify),
                       ),
                     ),
                   ),
@@ -126,7 +128,8 @@ class _PantallaQuemaduraState extends State<PantallaQuemadura> {
                     width: 250,
                     child: Card(
                       child: ListTile(
-                        title: Text("Text Prueba 3"),
+                        contentPadding: EdgeInsets.all(15),
+                        title: Text("3.- Haz un vendaje con compresas estériles\n\nNo explotes nunca una ampolla, podría infectarse",style: TextStyle(color: Colors.red),textAlign: TextAlign.justify),
                       ),
                     ),
                   ),

@@ -108,7 +108,8 @@ class _PantallaTraumatismoState extends State<PantallaTraumatismo> {
                     width: 250,
                     child: Card(
                       child: ListTile(
-                        title: Text("Text Prueba 1"),
+                        contentPadding: EdgeInsets.all(15),
+                        title: Text("1.- No muevas jamás a la víctima, aconséjale que no se quite el casco y que no realice ningún movimiento, especialmente de la cabeza.",style: TextStyle(color: Colors.red),textAlign: TextAlign.justify),
                       ),
                     ),
                   ),
@@ -116,7 +117,8 @@ class _PantallaTraumatismoState extends State<PantallaTraumatismo> {
                     width: 250,
                     child: Card(
                       child: ListTile(
-                        title: Text("Text Prueba 2"),
+                        contentPadding: EdgeInsets.all(15),
+                        title: Text("2.- Tranquiliza a la victima ",style: TextStyle(color: Colors.red),textAlign: TextAlign.justify),
                       ),
                     ),
                   ),
@@ -124,7 +126,8 @@ class _PantallaTraumatismoState extends State<PantallaTraumatismo> {
                     width: 250,
                     child: Card(
                       child: ListTile(
-                        title: Text("Text Prueba 3"),
+                        contentPadding: EdgeInsets.all(15),
+                        title: Text("3.-Llama a Emergencias",style: TextStyle(color: Colors.red),textAlign: TextAlign.justify),
                       ),
                     ),
                   ),

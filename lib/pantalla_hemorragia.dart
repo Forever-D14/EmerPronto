@@ -108,7 +108,8 @@ class _PantallaHemorragiaState extends State<PantallaHemorragia> {
                     width: 250,
                     child: Card(
                       child: ListTile(
-                        title: Text("Text Prueba 1"),
+                        contentPadding: EdgeInsets.all(15),
+                        title: Text("1.- Comprime inmediatamente la herida con la ayuda de guantes o una bolsa de plástico.\n\nAcuesta a la víctima para tranquilizarla",style: TextStyle(color: Colors.red),textAlign: TextAlign.justify),
                       ),
                     ),
                   ),
@@ -116,7 +117,9 @@ class _PantallaHemorragiaState extends State<PantallaHemorragia> {
                     width: 250,
                     child: Card(
                       child: ListTile(
-                        title: Text("Text Prueba 2"),
+                        contentPadding: EdgeInsets.all(15),
+                        title: Text("2.- Si un cuerpo extraño se encuentra en la herida evita sacarlo.\n\nHaz un vendaje para comprimir la herida",style: TextStyle(color: Colors.red),textAlign: TextAlign.justify
+                        ),
                       ),
                     ),
                   ),
@@ -124,7 +127,9 @@ class _PantallaHemorragiaState extends State<PantallaHemorragia> {
                     width: 250,
                     child: Card(
                       child: ListTile(
-                        title: Text("Text Prueba 3"),
+                        contentPadding: EdgeInsets.all(15),
+                        title: Text("3.- Llama a emergencias\n\nAcompaña a la victima hasta que llegue emergencias",style: TextStyle(color: Colors.red),textAlign: TextAlign.justify
+                        ),
                       ),
                     ),
                   ),
